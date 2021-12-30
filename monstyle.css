@@ -1,0 +1,110 @@
+@charset "ISO-8859-1";
+body{
+    margin: 0px;
+    padding-left:2%;
+    width: 100%;
+    color:#400040;
+}
+.diaporama1{
+    margin: 0 auto;
+    width: 90%;
+    height: 80%;
+    border: 3px solid green;
+    background-image: url("img/illus.jpg");
+
+    webkit-animation-name: diapo1;
+    webkit-animation-duration:9s;
+    webkit-animation-timing-function:linear;
+    webkit-animation-iteration-count:3;
+    webkit-animation-direction:normal;
+
+    moz-animation-name: diapo1;
+    moz-animation-duration:9s;
+    moz-animation-timing-function:linear;
+    moz-animation-iteration-count:infinite;
+    moz-animation-direction:normal;
+
+    animation-name: diapo1;
+    animation-duration:10s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:normal;
+
+}
+/*@-webkit-keyframes diapo1{
+    0%{background-image: url("img/illus.jpg"); border: 15px solid green;}
+    35%{background-image: url("img/coco1.jpg"); border: 14px solid purple;}
+    75 %{background-image: url("img/coco2.jpg"); border: 16px solid red;}
+    100%{background-image: url("img/coco3.jpg"); border:  17px solid yellow;}
+}*/
+.diaporama2{
+    margin: 0 auto;
+    width: 90%;
+    height: 80%;
+    border: 3px solid green;
+    background-image: url("img/coco123.jpg");
+
+    webkit-animation-name: diapo2;
+    webkit-animation-duration:16s;
+    webkit-animation-timing-function:linear;
+    webkit-animation-iteration-count:infinite;
+    webkit-animation-direction:normal;
+
+    moz-animation-name: diapo2;
+    moz-animation-duration:16s;
+    moz-animation-timing-function:linear;
+    moz-animation-iteration-count:infinite;
+    moz-animation-direction:normal;
+
+    animation-name: diapo2;
+    animation-duration:16s;
+    animation-timing-function:linear;
+    animation-iteration-count:2;
+    animation-direction:left;
+}
+@-webkit-keyframes diapo2{
+    0%{background-position:0px 0px; border: 15px solid green;}
+    35%{background-position: -30% 0px; border: 14px solid purple;}
+    75 %{background-image: -180%; border: 16px solid red;}
+    100%{background-image: -240%; border:  17px solid yellow;}
+}
+@-moz-keyframes diapo2{
+    0%{background-position:0px 0px; border: 15px solid green;}
+    35%{background-position: -30% 0px; border: 14px solid purple;}
+    75 %{background-image: -180%; border: 16px solid red;}
+    100%{background-image: -240%; border:  17px solid yellow;}
+}
+@-keyframes diapo2{
+0%{background-position:0px 0px; border: 15px solid green;}
+35%{background-position: -90% 0px; border: 14px solid purple;}
+75 %{background-image: -180%; border: 16px solid red;}
+100%{background-image: -240%; border:  17px solid yellow;}
+}
+.cam{
+    color:  green;
+
+    webkit-animation-name: diapo;
+    webkit-animation-duration:3s;
+    webkit-animation-timing-function:linear;
+    webkit-animation-iteration-count:infinite;
+    webkit-animation-direction:normal;
+
+    moz-animation-name: diapo;
+    moz-animation-duration:3s;
+    moz-animation-timing-function:linear;
+    moz-animation-iteration-count:infinite;
+    moz-animation-direction:normal;
+
+    animation-name: diapo;
+    animation-duration:5s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:left;
+
+}
+@-webkit-keyframes diapo{
+    11%{color: green;}
+    50%{color:  red;}
+    100%{color:  yellow;}
+}
+}
